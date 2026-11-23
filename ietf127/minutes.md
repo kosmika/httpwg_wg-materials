@@ -2,6 +2,27 @@
 
 Scribe: Mike English
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Resumable Uploads for HTTP](#resumable-uploads-for-http)
+- [Cookies: HTTP State Management Mechanism](#cookies-http-state-management-mechanism)
+- [The Preliminary Request Denied HTTP Status Code](#the-preliminary-request-denied-http-status-code)
+- [Secondary Certificate Authentication of HTTP Servers](#secondary-certificate-authentication-of-http-servers)
+  - [PR #3584 - Client-only SETTINGS negotiation](#pr-3584---client-only-settings-negotiation)
+  - [PR #3586 - Certificate errors](#pr-3586---certificate-errors)
+  - [PR #3585 - Trust store divergence](#pr-3585---trust-store-divergence)
+  - [Issue #3590 - Authority and scope](#issue-3590---authority-and-scope)
+  - [Issue #3497 - Rename SERVER_CERTIFICATE](#issue-3497---rename-server_certificate)
+- [HTTP Signature-Key Header](#http-signature-key-header)
+- [The Redirect-By HTTP Response Header Field](#the-redirect-by-http-response-header-field)
+- [Guidance on the 402 (Payment Required) Status Code](#guidance-on-the-402-payment-required-status-code)
+- [Parallel Appends for Resumable Uploads](#parallel-appends-for-resumable-uploads)
+- [Authenticating HTTP Tunnels with HTTP Message Signatures](#authenticating-http-tunnels-with-http-message-signatures)
+- [Unbound DATA for CONNECT in HTTP/3](#unbound-data-for-connect-in-http3)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Resumable Uploads for HTTP
 
 Document: 
@@ -16,7 +37,7 @@ Plan to cut one more draft and then go to standard 2 week WGLC
 
 not present: will ask for update on list
 
-## The Preliminary Request Denied HTTP Status Code - Mark Nottingham
+## The Preliminary Request Denied HTTP Status Code
 
 one user of this status code, may be a workaround for the conflict
 
@@ -78,7 +99,7 @@ PTTH chair is happy to be present in the reverse PTTH WG today
 
 BenS: mentioning similarity to ECH fine, mentioning some ways fine, trying to enumerate them all, probably not
 
-## HTTP Signature-Key Header - call for adoption discussion
+## HTTP Signature-Key Header
 
 call for adoption on list failed, this is discussion following up on that
 
@@ -138,7 +159,7 @@ Show of hands: Are you interested in pursuing this work?
 * no opinion 21
 
 
-## Guidance on the 402 (Payment Required) Status Code - Mark Nottingham
+## Guidance on the 402 (Payment Required) Status Code
 
 Doc:
 https://datatracker.ietf.org/doc/draft-nottingham-httpbis-402/
